@@ -38,8 +38,9 @@ public class WatermarkGUI{
 	private Dimension dimension;
 
 	public WatermarkGUI(){
+		
 		imageHandler = new imageIO();
-		main = new JFrame("Watermarker");
+		main = new JFrame("WaterMarker");
 		main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		optionsPanel = new OptionsPanel(imageHandler, this);
 		picLabel = new JLabel();
